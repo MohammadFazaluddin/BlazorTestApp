@@ -1,0 +1,18 @@
+﻿@page "/"
+
+<h3>Login</h3>
+
+<EditForm Model="EditModel" OnValidSubmit="LoginToSystem" class="form-control">
+
+    <label for="login-email">Email</label>
+    <InputText @bind-Value="@EditModel.Email" id="login-email" class="form-control" />
+
+    <label for="login-pass">Password</label>
+    <InputText type="password" @bind-Value="@EditModel.Passoword" id="login-pass" class="form-control" />
+
+    <button class="btn btn-primary">Login</button>
+</EditForm>
+
+<p class="text-danger">
+    @loginMessage
+</p>

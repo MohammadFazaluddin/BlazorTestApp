@@ -245,3 +245,4 @@ paket-files/
 *.sln.iml
 /MoonsBakery/appsettings.Development.json
 /BlazorTest.Web/wwwroot/appsettings.Development.json
+/BlazorTest.API/appsettings.Development.json
