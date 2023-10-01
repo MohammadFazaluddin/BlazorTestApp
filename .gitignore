@@ -244,3 +244,4 @@ paket-files/
 .idea/
 *.sln.iml
 /MoonsBakery/appsettings.Development.json
+/BlazorTest.Web/wwwroot/appsettings.Development.json
